@@ -61,9 +61,7 @@ table {
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
     width: 100%;
-	border: solid 1px grey;
 }
 
 /* Voor MOBIEL */
