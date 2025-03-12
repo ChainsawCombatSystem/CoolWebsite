@@ -3,36 +3,10 @@
 <head>
 <meta charset="utf-8">
 <title>gay men</title>
+<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<style>
-	
-	#pages{
-		height: 10vh;
-		width: 30vh;
-		border: solid 1px black;
-		margin: auto;
-		font-size: 25px;
-		color: red;
-	}
-
-	#box{
-		width: 30vh;
-		height: 30vh;
-		margin: auto;
-		border: solid 1px black;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-image: url('slend.jpeg')
-	}
-	#collectedPages{
-	height: 10vh;
-	width: 30vh;
-	border: solid 1px black;
-	margin: auto;
-	}
-</style>
 
 	<div id="pages" onClick="collectPage()">Click here for pages!!!</div>
 
@@ -40,26 +14,7 @@
 	
 	<div id="collectedPages">pages here</div>
 
-<script>
- 	
-	var pages=0;
-	
-	function changeNow(){
-		document.getElementById("box").style.backgroundImage="url('slend.jpeg')";
-	}
-	function collectPage(){
-		pages++;
-		updatePages();
-	}
-	function updatePages(){
-	document.getElementById("collectedPages").innerHTML="You have "+pages+" pages!!!";
-	if(pages==8){
-		document.getElementById("box").style.backgroundImage="url('slender.jpg')";
-		
-	}
-	}
-updatePages();
-	
+<script src="script1.js">
 </script>
 </body>
 </html>
