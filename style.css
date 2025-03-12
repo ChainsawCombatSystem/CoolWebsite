@@ -105,6 +105,18 @@ table {
     .col-12 {width: 100%;}
 	
 	/* DESKTOP code binnen deze accolades van het @media stuk */
-	
+	#pages, #collectedPages{
+		height: 20vh;
+		border: solid 1px black;
+		color: red;
+		font-size: 20px;
+	}
+	#box{
+		border: solid 1px black;
+		height: 30vh;
+		object-fit: contain;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
 }
 
