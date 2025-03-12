@@ -116,5 +116,8 @@ table {
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
+	.inv{
+		padding: 1px;
+	}
 }
 
